@@ -112,6 +112,7 @@ func NewDefaultOptions() *Options {
 			Timeout:          60,
 			UriFilter:        []string{"http", "https"},
 			ScreenshotFormat: "jpeg",
+			ScreenshotFullPage: true,
 			HttpCodeFilter:   []int{},
 		},
 		Logging: Logging{
